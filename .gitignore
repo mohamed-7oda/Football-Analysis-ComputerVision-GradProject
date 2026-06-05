@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# Model weights (large binary files)
+*.pt
+models/
+
+# Generated stubs / cache
+stubs/
+
+# Videos
+input_videos/
+output_videos/
+
+# YOLO training runs
+runs/
+
+# Training dataset images (from Roboflow — re-downloadable)
+training/football-players-detection-1/football-players-detection-1/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
